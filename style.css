@@ -1,0 +1,122 @@
+header{
+    padding: 0;
+    margin: 0;
+    background-color: aqua;
+    height: 100%;
+}
+header nav{
+    text-align: right;
+}
+header nav ul a{
+    padding: 4px;
+}
+h1{
+    text-align: center;
+}
+main{
+    display: flex;
+}
+  .slider1 {
+    margin: 30px auto;
+    position: relative;
+    background-color:rgb(125, 104, 104);
+    border-radius: 10px;
+    width: 200px;
+  }
+  
+  .slider1-viewport {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+  }
+  
+  .slider1-content {
+    display: grid;
+    grid-auto-flow: column;
+    -webkit-transition: 1s all;
+    transition: 1s all;
+  }
+  .slider1-content img{
+    padding: 5px;
+    width: 190px;
+    height: 210px;
+    border-radius: 12px;
+  }
+  
+  .slider1-nav {
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .slider1-nav a {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.3);
+            box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.3);
+    display:inline-block;
+    background-color: #c9cbdb;
+    width: 15px;
+    height: 15px;
+    margin: 0 3px;
+  }
+  .slider1-nav a:hover {
+    background-color: #ead5d5;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.8);
+            box-shadow: 0px 0px 5px 0px rgba(211, 5, 5, 0.8);
+  }
+  
+  #img2:target .slider1-content {
+    -webkit-transform: translateX(-200px);
+            transform: translateX(-200px);
+  }
+  .slider2 {
+    margin: 30px auto;
+    position: relative;
+    background-color: #c9cbdb;
+    border-radius: 10px;
+  }
+  
+  .slider2-viewport {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+  }
+  
+  .slider2-content {
+    display: grid;
+    grid-auto-flow: column;
+    -webkit-transition: 1s all;
+    transition: 1s all;
+  }
+  .slider2-content img {
+    width: 190px;
+    height: 210px;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  
+  .slider2-nav {
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .slider2-nav a {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.3);
+            box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.3);
+    display:inline-block;
+    background-color: #b4b6c4;
+    width: 15px;
+    height: 15px;
+    margin: 0 3px;
+  }
+  .slider2-nav a:hover {
+    background-color: #ead5d5;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.8);
+            box-shadow: 0px 0px 5px 0px rgba(211, 5, 5, 0.8);
+  }
+  
+  #img4:target .slider2-content {
+    -webkit-transform: translateX(-200px);
+            transform: translateX(-200px);
+  }
+  .caracteristiques{
+    text-align: center;
+  }
