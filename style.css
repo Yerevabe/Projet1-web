@@ -1,8 +1,14 @@
+*{
+  padding: 0;
+  margin: 0;
+}
 header{
-    padding: 0;
-    margin: 0;
-    background-color: aqua;
-    height: 100%;
+  padding: 0;
+  margin: 0;
+  background-image: url(header.jpg);
+  background-repeat: no-repeat;
+  height: 300px;
+  background-size: cover;
 }
 header nav{
     text-align: right;
@@ -12,6 +18,12 @@ header nav ul a{
 }
 h1{
     text-align: center;
+}
+h2{
+  text-align: center;
+}
+p{
+  text-align: center;
 }
 main{
     display: flex;
@@ -99,10 +111,10 @@ main{
     text-align: center;
   }
   .slider2-nav a {
-    -webkit-box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.3);
-            box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.3);
+    -webkit-box-shadow: 0px 0px 6px 0px rgba(255, 255, 255, 0.3);
+            box-shadow: 0px 0px 6px 0px rgba(255, 255, 255, 0.3);
     display:inline-block;
-    background-color: #b4b6c4;
+    background-color: #1226bd;
     width: 15px;
     height: 15px;
     margin: 0 3px;
@@ -119,4 +131,54 @@ main{
   }
   .caracteristiques{
     text-align: center;
+  }
+  .slider3 {
+    margin: 30px auto;
+    position: relative;
+    background-color:rgb(125, 104, 104);
+    border-radius: 10px;
+    width: 200px;
+  }
+  
+  .slider3-viewport {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+  }
+  
+  .slider3-content {
+    display: grid;
+    grid-auto-flow: column;
+    -webkit-transition: 1s all;
+    transition: 1s all;
+  }
+  .slider3-content img{
+    padding: 5px;
+    width: 190px;
+    height: 210px;
+    border-radius: 12px;
+  }
+  
+  .slider3-nav {
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .slider3-nav a {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.3);
+            box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.3);
+    display:inline-block;
+    background-color: #ebecec;
+    width: 15px;
+    height: 15px;
+    margin: 0 3px;
+  }
+  .slider3-nav a:hover {
+    background-color: #ead5d5;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.8);
+            box-shadow: 0px 0px 5px 0px rgba(211, 5, 5, 0.8);
+  }
+  #img6:target .slider3-content {
+    -webkit-transform: translateX(-200px);
+            transform: translateX(-200px);
   }
