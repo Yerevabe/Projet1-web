@@ -1,8 +1,11 @@
-<<<<<<< HEAD
 *{
     padding: 0;
-=======
-*{
-    padding: 0;
->>>>>>> 35f0135eee7164003185ef6ef43de6f3bce4ad9e
+    margin: 0;
+}
+header nav ul{
+    text-align: right;
+    padding: 8px;
+}
+header nav ul a{
+    padding: 4px;
 }
