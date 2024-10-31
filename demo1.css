@@ -1,0 +1,9 @@
+*{
+    background-color: blanchedalmond;
+    padding: 0;
+    margin: 0;
+}
+header nav ul a {
+    padding: 6px;
+    text-align: right;
+}
